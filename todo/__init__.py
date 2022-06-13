@@ -9,7 +9,7 @@ def create_app():
     app = Flask(__name__)
     
     app.config.from_mapping(
-        SECRET_KEY='TODOer5555',
+        SECRET_KEY='#',
         DATABASE_HOST=os.environ.get('FLASK_DATABASE_HOST'),
         DATABASE_PASSWORD=os.environ.get('FLASK_DATABASE_PASSWORD'),
         DATABASE_USER=os.environ.get('FLASK_DATABASE_USER'),
